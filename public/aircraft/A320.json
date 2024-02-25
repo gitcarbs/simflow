@@ -1,5 +1,15 @@
 [
   {
+    "title": "VATSIM",
+    "items": [
+      {
+        "title": "SIMBRIEF PLAN",
+        "type": "bool",
+        "value": "FILED"
+      }
+    ]
+  },
+  {
     "title": "PRE-FLIGHT",
     "items": [
       {
