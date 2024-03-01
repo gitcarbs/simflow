@@ -3,69 +3,24 @@
     "title": "VATSIM",
     "items": [
       {
-        "title": "SIMBRIEF PLAN",
+        "title": "SIMBRIEF PLAN (CALLSIGN, ROUTE, ALT)",
         "type": "bool",
         "value": "FILED"
-      }
-    ]
-  },
-  {
-    "title": "PRE-FLIGHT",
-    "items": [
+      },
       {
-        "title": "PARKING BRAKE",
+        "title": "VPILOT",
         "type": "bool",
         "value": "ON"
       },
       {
-        "title": "WEATHER RADAR",
+        "title": "FOREFLIGHT",
         "type": "bool",
-        "value": "OFF"
+        "value": "ROUTE LOADED"
       },
       {
-        "title": "PREDICTIVE WINDSHEAR",
-        "type": "bool",
-        "value": "OFF"
-      },
-      {
-        "title": "SPOILERS",
-        "type": "bool",
-        "value": "DISARMED & RETRACTED"
-      },
-      {
-        "title": "FLAPS",
-        "type": "bool",
-        "value": "RETRACTED"
-      },
-      {
-        "title": "ENGINE MODE SELECTOR",
-        "type": "bool",
-        "value": "NORMAL"
-      },
-      {
-        "title": "ENGINE MASTER 1 + 2",
-        "type": "bool",
-        "value": "OFF"
-      },
-      {
-        "title": "THRUST LEVERS",
-        "type": "bool",
-        "value": "IDLE"
-      },
-      {
-        "title": "ANTI-SKID",
+        "title": "FS2FF",
         "type": "bool",
         "value": "ON"
-      },
-      {
-        "title": "LANDING GEAR",
-        "type": "bool",
-        "value": "DOWN"
-      },
-      {
-        "title": "WIPERS",
-        "type": "bool",
-        "value": "OFF"
       }
     ]
   },
@@ -83,11 +38,6 @@
         "value": "ON"
       },
       {
-        "title": "ACCU. BRAKES PRESSURE",
-        "type": "bool",
-        "value": "CHECKED"
-      },
-      {
         "title": "COCKPIT & INSTRUMENT LIGHTS",
         "type": "bool",
         "value": "AS REQ."
@@ -96,22 +46,6 @@
         "title": "APU & ENGINE FIRE TESTS",
         "type": "bool",
         "value": "PERFORM"
-      },
-      {
-        "title": "IF EXTERNAL POWER UNAVAILABLE:",
-        "type": "reminder",
-        "value": [
-          {
-            "title": "APU MASTER",
-            "value": "ON",
-            "img": "img/symbols/push_button.webp"
-          },
-          {
-            "title": "APU",
-            "value": "START",
-            "img": "img/symbols/start.webp"
-          }
-        ]
       },
       {
         "title": "CREW SUPPLY",
@@ -142,21 +76,6 @@
         "title": "ANNUNCIATOR LIGHTS",
         "type": "bool",
         "value": "TEST"
-      },
-      {
-        "title": "PROBE & WINDOW HEAT",
-        "type": "bool",
-        "value": "AUTO"
-      },
-      {
-        "title": "ANTI-ICE",
-        "type": "bool",
-        "value": "OFF"
-      },
-      {
-        "title": "AIR CONDITION",
-        "type": "bool",
-        "value": "AS REQUIRED"
       },
       {
         "title": "ECAM PAGE",
@@ -225,11 +144,6 @@
         "value": "SETUP"
       },
       {
-        "title": "RADNAV",
-        "type": "bool",
-        "value": "SETUP"
-      },
-      {
         "title": "IRS ALIGN",
         "type": "bool",
         "value": "CHECK"
@@ -238,6 +152,11 @@
         "title": "CHECK:",
         "type": "reminder",
         "value": [
+          {
+            "title": "RECORD EXPECTED DEPARTURE FREQUENCY",
+            "value": "",
+            "img": "img/symbols/airport.webp"
+          },
           {
             "title": "OBTAIN IFR CLEARANCE",
             "value": "",
@@ -257,6 +176,11 @@
       },
       {
         "title": "SQUAWK",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "AP INITIAL ALTITUDE",
         "type": "bool",
         "value": "SET"
       }
@@ -322,11 +246,6 @@
         "value": "ON"
       },
       {
-        "title": "STEERING PIN",
-        "type": "bool",
-        "value": "INSERTED"
-      },
-      {
         "title": "TRANSPONDER",
         "type": "bool",
         "value": "AUTO"
@@ -335,11 +254,6 @@
         "title": "TCAS",
         "type": "bool",
         "value": "STANDBY"
-      },
-      {
-        "title": "CLOCK",
-        "type": "bool",
-        "value": "RUN"
       },
       {
         "title": "PARKING BRAKE",
@@ -460,21 +374,6 @@
         "value": "CHECKED"
       },
       {
-        "title": "PITCH TRIM",
-        "type": "bool",
-        "value": "SET"
-      },
-      {
-        "title": "RUDDER TRIM",
-        "type": "bool",
-        "value": "RESET"
-      },
-      {
-        "title": "STEERING PIN",
-        "type": "bool",
-        "value": "REMOVED"
-      },
-      {
         "title": "NOSEWHEEL LIGHT",
         "type": "bool",
         "value": "TAXI"
@@ -493,6 +392,11 @@
         "title": "CHECK:",
         "type": "reminder",
         "value": [
+          {
+            "title": "PREPARE EXPECTED TAXI ROUTE",
+            "value": "",
+            "img": "img/symbols/airport.webp"
+          },
           {
             "title": "REQUEST TAXI CLEARANCE",
             "value": "",
@@ -556,21 +460,6 @@
         "value": "TA/RA"
       },
       {
-        "title": "WEATHER RADAR",
-        "type": "bool",
-        "value": "ON"
-      },
-      {
-        "title": "PREDICTIVE WINDSHEAR",
-        "type": "bool",
-        "value": "ON"
-      },
-      {
-        "title": "WEATHER MODE",
-        "type": "bool",
-        "value": "AS REQUIRED"
-      },
-      {
         "title": "ECAM MEMO",
         "type": "bool",
         "value": "T/O NO BLUE"
@@ -593,11 +482,6 @@
       },
       {
         "title": "DEPARTURE FREQUENCY STANDBY",
-        "type": "bool",
-        "value": "SET"
-      },
-      {
-        "title": "CHRONO",
         "type": "bool",
         "value": "SET"
       }
@@ -770,19 +654,9 @@
         "value": "REVIEWED"
       },
       {
-        "title": "TCAS",
-        "type": "bool",
-        "value": "BLW"
-      },
-      {
         "title": "APPROACH BRIEFING",
         "type": "bool",
         "value": "COMPLETED"
-      },
-      {
-        "title": "NAV AIDS",
-        "type": "bool",
-        "value": "REVIEWED"
       },
       {
         "title": "ANTI-ICE",
